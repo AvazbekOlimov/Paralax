@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+        
+}
+.site-header-content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;     
+    color: aliceblue;
+    letter-spacing: 5px;   
+    background-image:  url(img/mauricio-chavez-qpGn6DnlE10-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.site-header-content h1{
+    background: #3f3f3f;
+    padding: 16px 64px;
+    font-size: 35px;    
+    text-transform: uppercase;
+    opacity: 1;
+}
+.container {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-main-content{
+    width: 90%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 28px;
+    padding: 24px 0;
+}
+.site-main-content-two{
+    height: 100vh;
+    width: 100%;     
+    background-image: url(img/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.site-main-content-two h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.site-main-content-tree{
+    background-image: url(img/ahmed-zayan-5HCKAZYC5jk-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.site-main-content-tree h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
